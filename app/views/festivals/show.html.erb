@@ -1,0 +1,10 @@
+<h3> <%= @festival.name %></h3>
+<ul>
+  <li> <%= @festival.location %> </li>
+  <li> <%= @festival.start_date %> </li>
+  <li> <%= @festival.end_date %> </li>
+  <li> <%= @festival.image_url %> </li>
+</ul>
+<%= link_to "Edit/Update", edit_festival_path(@festival) %>
+<br>
+<%= link_to 'Delete', festival_path(@festival), method: :delete %>

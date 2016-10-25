@@ -1,0 +1,17 @@
+<h1>Festivals Index</h1>
+  <%= link_to "Add New Festival", new_festival_path %>
+<% @festivals.each do |festival| %>
+  <h3> <%= festival.name %>  </h3>
+  <p>
+    <%= festival.location %>
+  </p>
+  <p>
+    <%= festival.start_date %>
+  </p>
+  <p>
+    <%= festival.end_date %>
+  </p>
+  <%= link_to "Edit", edit_festival_path(festival)  %>
+  <br>
+  <%= link_to "Delete", festival_path(festival), method: :delete %>
+<% end %>

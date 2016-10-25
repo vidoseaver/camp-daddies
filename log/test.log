@@ -5,3 +5,1017 @@
   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
 Started GET "/festivals" for 127.0.0.1 at 2016-10-25 10:11:54 -0600
   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals" for 127.0.0.1 at 2016-10-25 10:24:12 -0600
+Processing by FestivalsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals" for 127.0.0.1 at 2016-10-25 10:33:52 -0600
+Processing by FestivalsController#index as HTML
+  Rendering festivals/index.html.erb within layouts/application
+  [1m[36mFestival Load (5.7ms)[0m  [1m[34mSELECT "festivals".* FROM "festivals"[0m
+  Rendered festivals/index.html.erb within layouts/application (14.7ms)
+Completed 500 Internal Server Error in 271ms (ActiveRecord: 6.7ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals" for 127.0.0.1 at 2016-10-25 10:35:04 -0600
+Processing by FestivalsController#index as HTML
+  Rendering festivals/index.html.erb within layouts/application
+  [1m[36mFestival Load (0.8ms)[0m  [1m[34mSELECT "festivals".* FROM "festivals"[0m
+  Rendered festivals/index.html.erb within layouts/application (8.8ms)
+Completed 500 Internal Server Error in 177ms (ActiveRecord: 2.4ms)
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals" for 127.0.0.1 at 2016-10-25 10:36:15 -0600
+Processing by FestivalsController#index as HTML
+  Rendering festivals/index.html.erb within layouts/application
+  [1m[36mFestival Load (0.4ms)[0m  [1m[34mSELECT "festivals".* FROM "festivals"[0m
+  Rendered festivals/index.html.erb within layouts/application (10.0ms)
+Completed 500 Internal Server Error in 200ms (ActiveRecord: 1.4ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals" for 127.0.0.1 at 2016-10-25 10:36:50 -0600
+Processing by FestivalsController#index as HTML
+  Rendering festivals/index.html.erb within layouts/application
+  [1m[36mFestival Load (0.4ms)[0m  [1m[34mSELECT "festivals".* FROM "festivals"[0m
+  Rendered festivals/index.html.erb within layouts/application (10.3ms)
+Completed 500 Internal Server Error in 222ms (ActiveRecord: 1.5ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals" for 127.0.0.1 at 2016-10-25 10:42:33 -0600
+Processing by FestivalsController#index as HTML
+  Rendering festivals/index.html.erb within layouts/application
+  [1m[36mFestival Load (0.5ms)[0m  [1m[34mSELECT "festivals".* FROM "festivals"[0m
+  Rendered festivals/index.html.erb within layouts/application (10.8ms)
+Completed 500 Internal Server Error in 211ms (ActiveRecord: 1.4ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals" for 127.0.0.1 at 2016-10-25 10:44:01 -0600
+Processing by FestivalsController#index as HTML
+  Rendering festivals/index.html.erb within layouts/application
+  [1m[36mFestival Load (0.4ms)[0m  [1m[34mSELECT "festivals".* FROM "festivals"[0m
+  Rendered festivals/index.html.erb within layouts/application (7.4ms)
+Completed 500 Internal Server Error in 230ms (ActiveRecord: 1.2ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 10:44:46 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (0.7ms)
+  Rendered festivals/new.html.erb within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 24.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 10:45:19 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (31.6ms)
+  Rendered festivals/new.html.erb within layouts/application (34.4ms)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 3.7ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 10:47:21 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (27.0ms)
+  Rendered festivals/new.html.erb within layouts/application (31.6ms)
+Completed 500 Internal Server Error in 287ms (ActiveRecord: 5.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 10:57:07 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (22.4ms)
+  Rendered festivals/new.html.erb within layouts/application (26.2ms)
+Completed 500 Internal Server Error in 252ms (ActiveRecord: 3.6ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 10:59:30 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (20.3ms)
+  Rendered festivals/new.html.erb within layouts/application (24.7ms)
+Completed 500 Internal Server Error in 245ms (ActiveRecord: 4.6ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 11:14:02 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (19.5ms)
+  Rendered festivals/new.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 321ms (Views: 311.5ms | ActiveRecord: 3.1ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 11:15:06 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (16.3ms)
+  Rendered festivals/new.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 202ms (Views: 191.4ms | ActiveRecord: 2.9ms)
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 11:15:16 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (20.4ms)
+  Rendered festivals/new.html.erb within layouts/application (22.6ms)
+Completed 200 OK in 217ms (Views: 202.4ms | ActiveRecord: 3.4ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 11:15:50 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (17.1ms)
+  Rendered festivals/new.html.erb within layouts/application (19.3ms)
+Completed 200 OK in 219ms (Views: 204.7ms | ActiveRecord: 2.8ms)
+  [1m[35m (2.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 11:16:02 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (18.7ms)
+  Rendered festivals/new.html.erb within layouts/application (21.2ms)
+Completed 200 OK in 230ms (Views: 215.1ms | ActiveRecord: 5.5ms)
+  [1m[35m (0.9ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 11:16:29 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (23.0ms)
+  Rendered festivals/new.html.erb within layouts/application (27.1ms)
+Completed 200 OK in 233ms (Views: 219.1ms | ActiveRecord: 4.3ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 11:16:39 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (26.9ms)
+  Rendered festivals/new.html.erb within layouts/application (29.5ms)
+Completed 200 OK in 247ms (Views: 233.7ms | ActiveRecord: 3.1ms)
+Started POST "/festivals" for 127.0.0.1 at 2016-10-25 11:16:40 -0600
+Processing by FestivalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "festival"=>{"name"=>"Festival One", "location"=>"999 Newyork St, New York, NY, 00000", "start_date"=>"1/1/2017", "end_date"=>"1/3/2017", "image_url"=>"https://i.vimeocdn.com/portrait/58832_300x300"}, "commit"=>"Create Festival"}
+No template found for FestivalsController#create, rendering head :no_content
+Completed 204 No Content in 52ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 11:34:53 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (21.2ms)
+  Rendered festivals/new.html.erb within layouts/application (24.1ms)
+Completed 200 OK in 199ms (Views: 188.9ms | ActiveRecord: 3.3ms)
+Started POST "/festivals" for 127.0.0.1 at 2016-10-25 11:34:53 -0600
+Processing by FestivalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "festival"=>{"name"=>"Festival One", "location"=>"999 Newyork St, New York, NY, 00000", "start_date"=>"1/1/2017", "end_date"=>"1/3/2017", "image_url"=>"https://i.vimeocdn.com/portrait/58832_300x300"}, "commit"=>"Create Festival"}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (24.4ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Festival One"], ["location", "999 Newyork St, New York, NY, 00000"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Mar 2017], ["image_url", "https://i.vimeocdn.com/portrait/58832_300x300"], ["created_at", 2016-10-25 17:34:53 UTC], ["updated_at", 2016-10-25 17:34:53 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+No template found for FestivalsController#create, rendering head :no_content
+Completed 204 No Content in 74ms (ActiveRecord: 24.7ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 11:40:21 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (25.3ms)
+  Rendered festivals/new.html.erb within layouts/application (28.7ms)
+Completed 200 OK in 234ms (Views: 219.9ms | ActiveRecord: 3.6ms)
+Started POST "/festivals" for 127.0.0.1 at 2016-10-25 11:40:21 -0600
+Processing by FestivalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "festival"=>{"name"=>"Festival One", "location"=>"999 Newyork St, New York, NY, 00000", "start_date"=>"1/1/2017", "end_date"=>"1/3/2017", "image_url"=>"https://i.vimeocdn.com/portrait/58832_300x300"}, "commit"=>"Create Festival"}
+  [1m[35m (0.9ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Festival One"], ["location", "999 Newyork St, New York, NY, 00000"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Mar 2017], ["image_url", "https://i.vimeocdn.com/portrait/58832_300x300"], ["created_at", 2016-10-25 17:40:21 UTC], ["updated_at", 2016-10-25 17:40:21 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/festivals/2
+Completed 302 Found in 10ms (ActiveRecord: 1.5ms)
+Started GET "/festivals/2" for 127.0.0.1 at 2016-10-25 11:40:21 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mFestival Load (0.3ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 14ms (Views: 4.6ms | ActiveRecord: 0.6ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 11:41:14 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (18.4ms)
+  Rendered festivals/new.html.erb within layouts/application (22.8ms)
+Completed 200 OK in 199ms (Views: 188.7ms | ActiveRecord: 3.1ms)
+Started POST "/festivals" for 127.0.0.1 at 2016-10-25 11:41:14 -0600
+Processing by FestivalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "festival"=>{"name"=>"Festival One", "location"=>"999 Newyork St, New York, NY, 00000", "start_date"=>"1/1/2017", "end_date"=>"1/3/2017", "image_url"=>"https://i.vimeocdn.com/portrait/58832_300x300"}, "commit"=>"Create Festival"}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Festival One"], ["location", "999 Newyork St, New York, NY, 00000"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Mar 2017], ["image_url", "https://i.vimeocdn.com/portrait/58832_300x300"], ["created_at", 2016-10-25 17:41:14 UTC], ["updated_at", 2016-10-25 17:41:14 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/festivals/3
+Completed 302 Found in 5ms (ActiveRecord: 0.7ms)
+Started GET "/festivals/3" for 127.0.0.1 at 2016-10-25 11:41:14 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mFestival Load (0.4ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 12ms (Views: 5.9ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 11:43:17 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (17.7ms)
+  Rendered festivals/new.html.erb within layouts/application (20.3ms)
+Completed 200 OK in 197ms (Views: 185.5ms | ActiveRecord: 3.9ms)
+Started POST "/festivals" for 127.0.0.1 at 2016-10-25 11:43:17 -0600
+Processing by FestivalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "festival"=>{"name"=>"Festival One", "location"=>"999 Newyork St, New York, NY, 00000", "start_date"=>"1/1/2017", "end_date"=>"1/3/2017", "image_url"=>"https://i.vimeocdn.com/portrait/58832_300x300"}, "commit"=>"Create Festival"}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Festival One"], ["location", "999 Newyork St, New York, NY, 00000"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Mar 2017], ["image_url", "https://i.vimeocdn.com/portrait/58832_300x300"], ["created_at", 2016-10-25 17:43:17 UTC], ["updated_at", 2016-10-25 17:43:17 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/festivals/4
+Completed 302 Found in 7ms (ActiveRecord: 1.0ms)
+Started GET "/festivals/4" for 127.0.0.1 at 2016-10-25 11:43:17 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mFestival Load (0.2ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 12ms (Views: 6.1ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 11:50:32 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (20.6ms)
+  Rendered festivals/new.html.erb within layouts/application (24.7ms)
+Completed 200 OK in 237ms (Views: 219.1ms | ActiveRecord: 3.1ms)
+Started POST "/festivals" for 127.0.0.1 at 2016-10-25 11:50:33 -0600
+Processing by FestivalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "festival"=>{"name"=>"Festival One", "location"=>"999 Newyork St, New York, NY, 00000", "start_date"=>"1/1/2017", "end_date"=>"1/3/2017", "image_url"=>"https://i.vimeocdn.com/portrait/58832_300x300"}, "commit"=>"Create Festival"}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Festival One"], ["location", "999 Newyork St, New York, NY, 00000"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Mar 2017], ["image_url", "https://i.vimeocdn.com/portrait/58832_300x300"], ["created_at", 2016-10-25 17:50:33 UTC], ["updated_at", 2016-10-25 17:50:33 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/festivals/5
+Completed 302 Found in 9ms (ActiveRecord: 1.1ms)
+Started GET "/festivals/5" for 127.0.0.1 at 2016-10-25 11:50:33 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mFestival Load (0.5ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 14ms (Views: 5.2ms | ActiveRecord: 1.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "test 1"], ["location", "test location 1"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Feb 2017], ["image_url", "www.google.com"], ["created_at", 2016-10-25 17:50:33 UTC], ["updated_at", 2016-10-25 17:50:33 UTC]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 11:53:58 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (20.8ms)
+  Rendered festivals/new.html.erb within layouts/application (23.4ms)
+Completed 200 OK in 225ms (Views: 213.9ms | ActiveRecord: 3.4ms)
+Started POST "/festivals" for 127.0.0.1 at 2016-10-25 11:53:58 -0600
+Processing by FestivalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "festival"=>{"name"=>"Festival One", "location"=>"999 Newyork St, New York, NY, 00000", "start_date"=>"1/1/2017", "end_date"=>"1/3/2017", "image_url"=>"https://i.vimeocdn.com/portrait/58832_300x300"}, "commit"=>"Create Festival"}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Festival One"], ["location", "999 Newyork St, New York, NY, 00000"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Mar 2017], ["image_url", "https://i.vimeocdn.com/portrait/58832_300x300"], ["created_at", 2016-10-25 17:53:58 UTC], ["updated_at", 2016-10-25 17:53:58 UTC]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/festivals/7
+Completed 302 Found in 7ms (ActiveRecord: 1.4ms)
+Started GET "/festivals/7" for 127.0.0.1 at 2016-10-25 11:53:58 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mFestival Load (0.3ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 10ms (Views: 4.0ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "test 1"], ["location", "test location 1"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Feb 2017], ["image_url", "www.google.com"], ["created_at", 2016-10-25 17:53:58 UTC], ["updated_at", 2016-10-25 17:53:58 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 11:54:25 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (23.1ms)
+  Rendered festivals/new.html.erb within layouts/application (26.1ms)
+Completed 200 OK in 237ms (Views: 222.9ms | ActiveRecord: 2.6ms)
+Started POST "/festivals" for 127.0.0.1 at 2016-10-25 11:54:25 -0600
+Processing by FestivalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "festival"=>{"name"=>"Festival One", "location"=>"999 Newyork St, New York, NY, 00000", "start_date"=>"1/1/2017", "end_date"=>"1/3/2017", "image_url"=>"https://i.vimeocdn.com/portrait/58832_300x300"}, "commit"=>"Create Festival"}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Festival One"], ["location", "999 Newyork St, New York, NY, 00000"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Mar 2017], ["image_url", "https://i.vimeocdn.com/portrait/58832_300x300"], ["created_at", 2016-10-25 17:54:25 UTC], ["updated_at", 2016-10-25 17:54:25 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/festivals/9
+Completed 302 Found in 8ms (ActiveRecord: 0.9ms)
+Started GET "/festivals/9" for 127.0.0.1 at 2016-10-25 11:54:25 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mFestival Load (0.2ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 14ms (Views: 7.2ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "test 1"], ["location", "test location 1"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Feb 2017], ["image_url", "www.google.com"], ["created_at", 2016-10-25 17:54:25 UTC], ["updated_at", 2016-10-25 17:54:25 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/festivals/10" for 127.0.0.1 at 2016-10-25 11:54:25 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mFestival Load (0.2ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 11:54:56 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (27.2ms)
+  Rendered festivals/new.html.erb within layouts/application (30.8ms)
+Completed 200 OK in 245ms (Views: 232.7ms | ActiveRecord: 3.8ms)
+Started POST "/festivals" for 127.0.0.1 at 2016-10-25 11:54:56 -0600
+Processing by FestivalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "festival"=>{"name"=>"Festival One", "location"=>"999 Newyork St, New York, NY, 00000", "start_date"=>"1/1/2017", "end_date"=>"1/3/2017", "image_url"=>"https://i.vimeocdn.com/portrait/58832_300x300"}, "commit"=>"Create Festival"}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (5.9ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Festival One"], ["location", "999 Newyork St, New York, NY, 00000"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Mar 2017], ["image_url", "https://i.vimeocdn.com/portrait/58832_300x300"], ["created_at", 2016-10-25 17:54:56 UTC], ["updated_at", 2016-10-25 17:54:56 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/festivals/11
+Completed 302 Found in 13ms (ActiveRecord: 6.2ms)
+Started GET "/festivals/11" for 127.0.0.1 at 2016-10-25 11:54:56 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mFestival Load (0.7ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 15ms (Views: 5.7ms | ActiveRecord: 1.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "test 1"], ["location", "test location 1"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Feb 2017], ["image_url", "www.google.com"], ["created_at", 2016-10-25 17:54:56 UTC], ["updated_at", 2016-10-25 17:54:56 UTC]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/festivals/12" for 127.0.0.1 at 2016-10-25 11:54:56 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mFestival Load (0.5ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 7ms (Views: 3.6ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 11:56:56 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (23.9ms)
+  Rendered festivals/new.html.erb within layouts/application (27.2ms)
+Completed 200 OK in 249ms (Views: 234.9ms | ActiveRecord: 3.2ms)
+Started POST "/festivals" for 127.0.0.1 at 2016-10-25 11:56:56 -0600
+Processing by FestivalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "festival"=>{"name"=>"Festival One", "location"=>"999 Newyork St, New York, NY, 00000", "start_date"=>"1/1/2017", "end_date"=>"1/3/2017", "image_url"=>"https://i.vimeocdn.com/portrait/58832_300x300"}, "commit"=>"Create Festival"}
+  [1m[35m (1.6ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Festival One"], ["location", "999 Newyork St, New York, NY, 00000"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Mar 2017], ["image_url", "https://i.vimeocdn.com/portrait/58832_300x300"], ["created_at", 2016-10-25 17:56:56 UTC], ["updated_at", 2016-10-25 17:56:56 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/festivals/13
+Completed 302 Found in 16ms (ActiveRecord: 2.7ms)
+Started GET "/festivals/13" for 127.0.0.1 at 2016-10-25 11:56:56 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mFestival Load (0.7ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 13ms (Views: 3.9ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "test 1"], ["location", "test location 1"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Feb 2017], ["image_url", "www.google.com"], ["created_at", 2016-10-25 17:56:56 UTC], ["updated_at", 2016-10-25 17:56:56 UTC]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/festivals/14" for 127.0.0.1 at 2016-10-25 11:56:56 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mFestival Load (0.4ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 14], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 7ms (Views: 3.9ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 11:57:27 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (28.9ms)
+  Rendered festivals/new.html.erb within layouts/application (33.5ms)
+Completed 200 OK in 237ms (Views: 219.9ms | ActiveRecord: 4.7ms)
+Started POST "/festivals" for 127.0.0.1 at 2016-10-25 11:57:27 -0600
+Processing by FestivalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "festival"=>{"name"=>"Festival One", "location"=>"999 Newyork St, New York, NY, 00000", "start_date"=>"1/1/2017", "end_date"=>"1/3/2017", "image_url"=>"https://i.vimeocdn.com/portrait/58832_300x300"}, "commit"=>"Create Festival"}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Festival One"], ["location", "999 Newyork St, New York, NY, 00000"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Mar 2017], ["image_url", "https://i.vimeocdn.com/portrait/58832_300x300"], ["created_at", 2016-10-25 17:57:27 UTC], ["updated_at", 2016-10-25 17:57:27 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/festivals/15
+Completed 302 Found in 9ms (ActiveRecord: 0.9ms)
+Started GET "/festivals/15" for 127.0.0.1 at 2016-10-25 11:57:27 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mFestival Load (0.6ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 15], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 14ms (Views: 4.6ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "test 1"], ["location", "test location 1"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Feb 2017], ["image_url", "www.google.com"], ["created_at", 2016-10-25 17:57:27 UTC], ["updated_at", 2016-10-25 17:57:27 UTC]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/festivals/16" for 127.0.0.1 at 2016-10-25 11:57:27 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mFestival Load (0.3ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 7ms (Views: 4.4ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 11:57:55 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (19.2ms)
+  Rendered festivals/new.html.erb within layouts/application (22.1ms)
+Completed 200 OK in 257ms (Views: 243.3ms | ActiveRecord: 5.3ms)
+Started POST "/festivals" for 127.0.0.1 at 2016-10-25 11:57:55 -0600
+Processing by FestivalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "festival"=>{"name"=>"Festival One", "location"=>"999 Newyork St, New York, NY, 00000", "start_date"=>"1/1/2017", "end_date"=>"1/3/2017", "image_url"=>"https://i.vimeocdn.com/portrait/58832_300x300"}, "commit"=>"Create Festival"}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Festival One"], ["location", "999 Newyork St, New York, NY, 00000"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Mar 2017], ["image_url", "https://i.vimeocdn.com/portrait/58832_300x300"], ["created_at", 2016-10-25 17:57:55 UTC], ["updated_at", 2016-10-25 17:57:55 UTC]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/festivals/17
+Completed 302 Found in 8ms (ActiveRecord: 1.2ms)
+Started GET "/festivals/17" for 127.0.0.1 at 2016-10-25 11:57:55 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mFestival Load (0.3ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 17], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 12ms (Views: 3.8ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "test 1"], ["location", "test location 1"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Feb 2017], ["image_url", "www.google.com"], ["created_at", 2016-10-25 17:57:55 UTC], ["updated_at", 2016-10-25 17:57:55 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/festivals/18" for 127.0.0.1 at 2016-10-25 11:57:55 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mFestival Load (0.2ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.2ms)
+Started GET "/festivals/18/edit" for 127.0.0.1 at 2016-10-25 11:57:55 -0600
+Processing by FestivalsController#edit as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mFestival Load (0.2ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  Rendering festivals/edit.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (3.9ms)
+  Rendered festivals/edit.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 12ms (Views: 9.5ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 11:58:07 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (23.4ms)
+  Rendered festivals/new.html.erb within layouts/application (26.1ms)
+Completed 200 OK in 248ms (Views: 237.4ms | ActiveRecord: 2.8ms)
+Started POST "/festivals" for 127.0.0.1 at 2016-10-25 11:58:07 -0600
+Processing by FestivalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "festival"=>{"name"=>"Festival One", "location"=>"999 Newyork St, New York, NY, 00000", "start_date"=>"1/1/2017", "end_date"=>"1/3/2017", "image_url"=>"https://i.vimeocdn.com/portrait/58832_300x300"}, "commit"=>"Create Festival"}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Festival One"], ["location", "999 Newyork St, New York, NY, 00000"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Mar 2017], ["image_url", "https://i.vimeocdn.com/portrait/58832_300x300"], ["created_at", 2016-10-25 17:58:07 UTC], ["updated_at", 2016-10-25 17:58:07 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/festivals/19
+Completed 302 Found in 7ms (ActiveRecord: 0.7ms)
+Started GET "/festivals/19" for 127.0.0.1 at 2016-10-25 11:58:07 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mFestival Load (0.2ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 13ms (Views: 3.6ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "test 1"], ["location", "test location 1"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Feb 2017], ["image_url", "www.google.com"], ["created_at", 2016-10-25 17:58:07 UTC], ["updated_at", 2016-10-25 17:58:07 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/festivals/20" for 127.0.0.1 at 2016-10-25 11:58:07 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mFestival Load (0.2ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 20], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.2ms)
+Started GET "/festivals/20/edit" for 127.0.0.1 at 2016-10-25 11:58:07 -0600
+Processing by FestivalsController#edit as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mFestival Load (0.5ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 20], ["LIMIT", 1]]
+  Rendering festivals/edit.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (2.6ms)
+  Rendered festivals/edit.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 11ms (Views: 7.9ms | ActiveRecord: 0.5ms)
+Started PATCH "/festivals/20" for 127.0.0.1 at 2016-10-25 11:58:07 -0600
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 11:59:37 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (21.8ms)
+  Rendered festivals/new.html.erb within layouts/application (25.6ms)
+Completed 200 OK in 257ms (Views: 240.7ms | ActiveRecord: 2.7ms)
+Started POST "/festivals" for 127.0.0.1 at 2016-10-25 11:59:37 -0600
+Processing by FestivalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "festival"=>{"name"=>"Festival One", "location"=>"999 Newyork St, New York, NY, 00000", "start_date"=>"1/1/2017", "end_date"=>"1/3/2017", "image_url"=>"https://i.vimeocdn.com/portrait/58832_300x300"}, "commit"=>"Create Festival"}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Festival One"], ["location", "999 Newyork St, New York, NY, 00000"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Mar 2017], ["image_url", "https://i.vimeocdn.com/portrait/58832_300x300"], ["created_at", 2016-10-25 17:59:37 UTC], ["updated_at", 2016-10-25 17:59:37 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/festivals/21
+Completed 302 Found in 6ms (ActiveRecord: 0.9ms)
+Started GET "/festivals/21" for 127.0.0.1 at 2016-10-25 11:59:37 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mFestival Load (0.4ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 12ms (Views: 3.7ms | ActiveRecord: 0.6ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "test 1"], ["location", "test location 1"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Feb 2017], ["image_url", "www.google.com"], ["created_at", 2016-10-25 17:59:37 UTC], ["updated_at", 2016-10-25 17:59:37 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/festivals/22" for 127.0.0.1 at 2016-10-25 11:59:37 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"22"}
+  [1m[36mFestival Load (0.3ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 10ms (Views: 7.1ms | ActiveRecord: 0.3ms)
+Started GET "/festivals/22/edit" for 127.0.0.1 at 2016-10-25 11:59:37 -0600
+Processing by FestivalsController#edit as HTML
+  Parameters: {"id"=>"22"}
+  [1m[36mFestival Load (0.3ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  Rendering festivals/edit.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (4.9ms)
+  Rendered festivals/edit.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 15ms (Views: 12.6ms | ActiveRecord: 0.3ms)
+Started PATCH "/festivals/22" for 127.0.0.1 at 2016-10-25 11:59:37 -0600
+Processing by FestivalsController#update as HTML
+  Parameters: {"utf8"=>"✓", "festival"=>{"name"=>"Festival One", "location"=>"999 Newyork St, New York, NY, 00000", "start_date"=>"5/1/2017", "end_date"=>"5/3/2017", "image_url"=>"https://i.vimeocdn.com/portrait/58832_300x300"}, "commit"=>"Update Festival", "id"=>"22"}
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 13:04:24 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (22.5ms)
+  Rendered festivals/new.html.erb within layouts/application (27.2ms)
+Completed 200 OK in 253ms (Views: 237.4ms | ActiveRecord: 3.1ms)
+Started POST "/festivals" for 127.0.0.1 at 2016-10-25 13:04:25 -0600
+Processing by FestivalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "festival"=>{"name"=>"Festival One", "location"=>"999 Newyork St, New York, NY, 00000", "start_date"=>"1/1/2017", "end_date"=>"1/3/2017", "image_url"=>"https://i.vimeocdn.com/portrait/58832_300x300"}, "commit"=>"Create Festival"}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Festival One"], ["location", "999 Newyork St, New York, NY, 00000"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Mar 2017], ["image_url", "https://i.vimeocdn.com/portrait/58832_300x300"], ["created_at", 2016-10-25 19:04:25 UTC], ["updated_at", 2016-10-25 19:04:25 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/festivals/23
+Completed 302 Found in 9ms (ActiveRecord: 0.9ms)
+Started GET "/festivals/23" for 127.0.0.1 at 2016-10-25 13:04:25 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"23"}
+  [1m[36mFestival Load (0.3ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 12ms (Views: 7.4ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "test 1"], ["location", "test location 1"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Feb 2017], ["image_url", "www.google.com"], ["created_at", 2016-10-25 19:04:25 UTC], ["updated_at", 2016-10-25 19:04:25 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/festivals/24" for 127.0.0.1 at 2016-10-25 13:04:25 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"24"}
+  [1m[36mFestival Load (0.2ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.2ms)
+Started GET "/festivals/24/edit" for 127.0.0.1 at 2016-10-25 13:04:25 -0600
+Processing by FestivalsController#edit as HTML
+  Parameters: {"id"=>"24"}
+  [1m[36mFestival Load (0.2ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  Rendering festivals/edit.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (7.7ms)
+  Rendered festivals/edit.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 15ms (Views: 13.3ms | ActiveRecord: 0.2ms)
+Started PATCH "/festivals/24" for 127.0.0.1 at 2016-10-25 13:04:25 -0600
+Processing by FestivalsController#update as HTML
+  Parameters: {"utf8"=>"✓", "festival"=>{"name"=>"Festival One", "location"=>"999 Newyork St, New York, NY, 00000", "start_date"=>"5/1/2017", "end_date"=>"5/3/2017", "image_url"=>"https://i.vimeocdn.com/portrait/58832_300x300"}, "commit"=>"Update Festival", "id"=>"24"}
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 13:05:21 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (22.9ms)
+  Rendered festivals/new.html.erb within layouts/application (26.6ms)
+Completed 200 OK in 246ms (Views: 232.3ms | ActiveRecord: 5.0ms)
+Started POST "/festivals" for 127.0.0.1 at 2016-10-25 13:05:22 -0600
+Processing by FestivalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "festival"=>{"name"=>"Festival One", "location"=>"999 Newyork St, New York, NY, 00000", "start_date"=>"1/1/2017", "end_date"=>"1/3/2017", "image_url"=>"https://i.vimeocdn.com/portrait/58832_300x300"}, "commit"=>"Create Festival"}
+  [1m[35m (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Festival One"], ["location", "999 Newyork St, New York, NY, 00000"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Mar 2017], ["image_url", "https://i.vimeocdn.com/portrait/58832_300x300"], ["created_at", 2016-10-25 19:05:22 UTC], ["updated_at", 2016-10-25 19:05:22 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/festivals/25
+Completed 302 Found in 9ms (ActiveRecord: 0.9ms)
+Started GET "/festivals/25" for 127.0.0.1 at 2016-10-25 13:05:22 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"25"}
+  [1m[36mFestival Load (0.3ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 13ms (Views: 4.6ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "test 1"], ["location", "test location 1"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Feb 2017], ["image_url", "www.google.com"], ["created_at", 2016-10-25 19:05:22 UTC], ["updated_at", 2016-10-25 19:05:22 UTC]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/festivals/26" for 127.0.0.1 at 2016-10-25 13:05:22 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"26"}
+  [1m[36mFestival Load (0.2ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 0.2ms)
+Started GET "/festivals/26/edit" for 127.0.0.1 at 2016-10-25 13:05:22 -0600
+Processing by FestivalsController#edit as HTML
+  Parameters: {"id"=>"26"}
+  [1m[36mFestival Load (0.2ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  Rendering festivals/edit.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (4.3ms)
+  Rendered festivals/edit.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 13ms (Views: 10.7ms | ActiveRecord: 0.2ms)
+Started PATCH "/festivals/26" for 127.0.0.1 at 2016-10-25 13:05:22 -0600
+Processing by FestivalsController#update as HTML
+  Parameters: {"utf8"=>"✓", "festival"=>{"name"=>"Festival One", "location"=>"999 Newyork St, New York, NY, 00000", "start_date"=>"5/1/2017", "end_date"=>"5/3/2017", "image_url"=>"https://i.vimeocdn.com/portrait/58832_300x300"}, "commit"=>"Update Festival", "id"=>"26"}
+  [1m[36mFestival Load (0.5ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "festivals" SET "name" = $1, "location" = $2, "start_date" = $3, "end_date" = $4, "image_url" = $5, "updated_at" = $6 WHERE "festivals"."id" = $7[0m  [["name", "Festival One"], ["location", "999 Newyork St, New York, NY, 00000"], ["start_date", Thu, 05 Jan 2017], ["end_date", Sun, 05 Mar 2017], ["image_url", "https://i.vimeocdn.com/portrait/58832_300x300"], ["updated_at", 2016-10-25 19:05:22 UTC], ["id", 26]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/festivals/26
+Completed 302 Found in 7ms (ActiveRecord: 1.0ms)
+Started GET "/festivals/26" for 127.0.0.1 at 2016-10-25 13:05:22 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"26"}
+  [1m[36mFestival Load (0.2ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 7ms (Views: 4.7ms | ActiveRecord: 0.2ms)
+  [1m[35m (4.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 13:20:05 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (21.0ms)
+  Rendered festivals/new.html.erb within layouts/application (23.6ms)
+Completed 200 OK in 261ms (Views: 245.4ms | ActiveRecord: 5.8ms)
+Started POST "/festivals" for 127.0.0.1 at 2016-10-25 13:20:05 -0600
+Processing by FestivalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "festival"=>{"name"=>"Festival One", "location"=>"999 Newyork St, New York, NY, 00000", "start_date"=>"1/1/2017", "end_date"=>"1/3/2017", "image_url"=>"https://i.vimeocdn.com/portrait/58832_300x300"}, "commit"=>"Create Festival"}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (6.0ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Festival One"], ["location", "999 Newyork St, New York, NY, 00000"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Mar 2017], ["image_url", "https://i.vimeocdn.com/portrait/58832_300x300"], ["created_at", 2016-10-25 19:20:05 UTC], ["updated_at", 2016-10-25 19:20:05 UTC]]
+  [1m[35m (0.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/festivals/27
+Completed 302 Found in 13ms (ActiveRecord: 6.7ms)
+Started GET "/festivals/27" for 127.0.0.1 at 2016-10-25 13:20:05 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mFestival Load (0.2ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 12ms (Views: 7.1ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "test 1"], ["location", "test location 1"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Feb 2017], ["image_url", "www.google.com"], ["created_at", 2016-10-25 19:20:05 UTC], ["updated_at", 2016-10-25 19:20:05 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/festivals/28" for 127.0.0.1 at 2016-10-25 13:20:05 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mFestival Load (0.3ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 12ms (Views: 9.6ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "test 1"], ["location", "test location 1"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Feb 2017], ["image_url", "www.google.com"], ["created_at", 2016-10-25 19:20:05 UTC], ["updated_at", 2016-10-25 19:20:05 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/festivals/29" for 127.0.0.1 at 2016-10-25 13:20:05 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mFestival Load (0.2ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.2ms)
+Started GET "/festivals/29/edit" for 127.0.0.1 at 2016-10-25 13:20:05 -0600
+Processing by FestivalsController#edit as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mFestival Load (0.2ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  Rendering festivals/edit.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (4.0ms)
+  Rendered festivals/edit.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 12ms (Views: 9.8ms | ActiveRecord: 0.2ms)
+Started PATCH "/festivals/29" for 127.0.0.1 at 2016-10-25 13:20:05 -0600
+Processing by FestivalsController#update as HTML
+  Parameters: {"utf8"=>"✓", "festival"=>{"name"=>"Festival One", "location"=>"999 Newyork St, New York, NY, 00000", "start_date"=>"5/1/2017", "end_date"=>"5/3/2017", "image_url"=>"https://i.vimeocdn.com/portrait/58832_300x300"}, "commit"=>"Update Festival", "id"=>"29"}
+  [1m[36mFestival Load (0.2ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "festivals" SET "name" = $1, "location" = $2, "start_date" = $3, "end_date" = $4, "image_url" = $5, "updated_at" = $6 WHERE "festivals"."id" = $7[0m  [["name", "Festival One"], ["location", "999 Newyork St, New York, NY, 00000"], ["start_date", Thu, 05 Jan 2017], ["end_date", Sun, 05 Mar 2017], ["image_url", "https://i.vimeocdn.com/portrait/58832_300x300"], ["updated_at", 2016-10-25 19:20:05 UTC], ["id", 29]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/festivals/29
+Completed 302 Found in 6ms (ActiveRecord: 1.1ms)
+Started GET "/festivals/29" for 127.0.0.1 at 2016-10-25 13:20:05 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mFestival Load (1.1ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 7ms (Views: 3.6ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 13:20:58 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (18.8ms)
+  Rendered festivals/new.html.erb within layouts/application (21.7ms)
+Completed 200 OK in 208ms (Views: 196.4ms | ActiveRecord: 4.2ms)
+Started POST "/festivals" for 127.0.0.1 at 2016-10-25 13:20:59 -0600
+Processing by FestivalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "festival"=>{"name"=>"Festival One", "location"=>"999 Newyork St, New York, NY, 00000", "start_date"=>"1/1/2017", "end_date"=>"1/3/2017", "image_url"=>"https://i.vimeocdn.com/portrait/58832_300x300"}, "commit"=>"Create Festival"}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Festival One"], ["location", "999 Newyork St, New York, NY, 00000"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Mar 2017], ["image_url", "https://i.vimeocdn.com/portrait/58832_300x300"], ["created_at", 2016-10-25 19:20:59 UTC], ["updated_at", 2016-10-25 19:20:59 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/festivals/30
+Completed 302 Found in 7ms (ActiveRecord: 1.2ms)
+Started GET "/festivals/30" for 127.0.0.1 at 2016-10-25 13:20:59 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"30"}
+  [1m[36mFestival Load (0.2ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 10ms (Views: 5.2ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "test 1"], ["location", "test location 1"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Feb 2017], ["image_url", "www.google.com"], ["created_at", 2016-10-25 19:20:59 UTC], ["updated_at", 2016-10-25 19:20:59 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/festivals/31" for 127.0.0.1 at 2016-10-25 13:20:59 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"31"}
+  [1m[36mFestival Load (0.2ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 31], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 11ms (Views: 7.6ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "test 1"], ["location", "test location 1"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Feb 2017], ["image_url", "www.google.com"], ["created_at", 2016-10-25 19:20:59 UTC], ["updated_at", 2016-10-25 19:20:59 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/festivals/32" for 127.0.0.1 at 2016-10-25 13:20:59 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"32"}
+  [1m[36mFestival Load (0.2ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 32], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.2ms)
+Started GET "/festivals/32/edit" for 127.0.0.1 at 2016-10-25 13:20:59 -0600
+Processing by FestivalsController#edit as HTML
+  Parameters: {"id"=>"32"}
+  [1m[36mFestival Load (0.2ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 32], ["LIMIT", 1]]
+  Rendering festivals/edit.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (4.7ms)
+  Rendered festivals/edit.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.2ms)
+Started PATCH "/festivals/32" for 127.0.0.1 at 2016-10-25 13:20:59 -0600
+Processing by FestivalsController#update as HTML
+  Parameters: {"utf8"=>"✓", "festival"=>{"name"=>"Festival One", "location"=>"999 Newyork St, New York, NY, 00000", "start_date"=>"5/1/2017", "end_date"=>"5/3/2017", "image_url"=>"https://i.vimeocdn.com/portrait/58832_300x300"}, "commit"=>"Update Festival", "id"=>"32"}
+  [1m[36mFestival Load (0.2ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 32], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[33mUPDATE "festivals" SET "name" = $1, "location" = $2, "start_date" = $3, "end_date" = $4, "image_url" = $5, "updated_at" = $6 WHERE "festivals"."id" = $7[0m  [["name", "Festival One"], ["location", "999 Newyork St, New York, NY, 00000"], ["start_date", Thu, 05 Jan 2017], ["end_date", Sun, 05 Mar 2017], ["image_url", "https://i.vimeocdn.com/portrait/58832_300x300"], ["updated_at", 2016-10-25 19:20:59 UTC], ["id", 32]]
+  [1m[35m (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/festivals/32
+Completed 302 Found in 8ms (ActiveRecord: 1.7ms)
+Started GET "/festivals/32" for 127.0.0.1 at 2016-10-25 13:20:59 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"32"}
+  [1m[36mFestival Load (0.6ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 32], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 6ms (Views: 3.6ms | ActiveRecord: 0.6ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 13:21:26 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (33.1ms)
+  Rendered festivals/new.html.erb within layouts/application (45.9ms)
+Completed 200 OK in 403ms (Views: 381.6ms | ActiveRecord: 10.9ms)
+Started POST "/festivals" for 127.0.0.1 at 2016-10-25 13:21:26 -0600
+Processing by FestivalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "festival"=>{"name"=>"Festival One", "location"=>"999 Newyork St, New York, NY, 00000", "start_date"=>"1/1/2017", "end_date"=>"1/3/2017", "image_url"=>"https://i.vimeocdn.com/portrait/58832_300x300"}, "commit"=>"Create Festival"}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Festival One"], ["location", "999 Newyork St, New York, NY, 00000"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Mar 2017], ["image_url", "https://i.vimeocdn.com/portrait/58832_300x300"], ["created_at", 2016-10-25 19:21:26 UTC], ["updated_at", 2016-10-25 19:21:26 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/festivals/33
+Completed 302 Found in 7ms (ActiveRecord: 0.7ms)
+Started GET "/festivals/33" for 127.0.0.1 at 2016-10-25 13:21:26 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"33"}
+  [1m[36mFestival Load (0.3ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 33], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 22ms (Views: 7.7ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "test 1"], ["location", "test location 1"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Feb 2017], ["image_url", "www.google.com"], ["created_at", 2016-10-25 19:21:26 UTC], ["updated_at", 2016-10-25 19:21:26 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/festivals/34" for 127.0.0.1 at 2016-10-25 13:21:26 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"34"}
+  [1m[36mFestival Load (0.2ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 34], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 13ms (Views: 5.8ms | ActiveRecord: 0.2ms)
+  [1m[35m (7.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "test 1"], ["location", "test location 1"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Feb 2017], ["image_url", "www.google.com"], ["created_at", 2016-10-25 19:21:26 UTC], ["updated_at", 2016-10-25 19:21:26 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/festivals/35" for 127.0.0.1 at 2016-10-25 13:21:26 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"35"}
+  [1m[36mFestival Load (0.3ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 35], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 15ms (Views: 10.8ms | ActiveRecord: 0.3ms)
+Started GET "/festivals/35/edit" for 127.0.0.1 at 2016-10-25 13:21:26 -0600
+Processing by FestivalsController#edit as HTML
+  Parameters: {"id"=>"35"}
+  [1m[36mFestival Load (0.2ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 35], ["LIMIT", 1]]
+  Rendering festivals/edit.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (2.5ms)
+  Rendered festivals/edit.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 14ms (Views: 9.0ms | ActiveRecord: 0.2ms)
+Started PATCH "/festivals/35" for 127.0.0.1 at 2016-10-25 13:21:26 -0600
+Processing by FestivalsController#update as HTML
+  Parameters: {"utf8"=>"✓", "festival"=>{"name"=>"Festival One", "location"=>"999 Newyork St, New York, NY, 00000", "start_date"=>"5/1/2017", "end_date"=>"5/3/2017", "image_url"=>"https://i.vimeocdn.com/portrait/58832_300x300"}, "commit"=>"Update Festival", "id"=>"35"}
+  [1m[36mFestival Load (0.2ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 35], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "festivals" SET "name" = $1, "location" = $2, "start_date" = $3, "end_date" = $4, "image_url" = $5, "updated_at" = $6 WHERE "festivals"."id" = $7[0m  [["name", "Festival One"], ["location", "999 Newyork St, New York, NY, 00000"], ["start_date", Thu, 05 Jan 2017], ["end_date", Sun, 05 Mar 2017], ["image_url", "https://i.vimeocdn.com/portrait/58832_300x300"], ["updated_at", 2016-10-25 19:21:26 UTC], ["id", 35]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/festivals/35
+Completed 302 Found in 4ms (ActiveRecord: 0.8ms)
+Started GET "/festivals/35" for 127.0.0.1 at 2016-10-25 13:21:26 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"35"}
+  [1m[36mFestival Load (0.4ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 35], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 16ms (Views: 12.9ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/festivals/new" for 127.0.0.1 at 2016-10-25 13:22:50 -0600
+Processing by FestivalsController#new as HTML
+  Rendering festivals/new.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (20.3ms)
+  Rendered festivals/new.html.erb within layouts/application (24.1ms)
+Completed 200 OK in 232ms (Views: 215.7ms | ActiveRecord: 6.2ms)
+Started POST "/festivals" for 127.0.0.1 at 2016-10-25 13:22:50 -0600
+Processing by FestivalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "festival"=>{"name"=>"Festival One", "location"=>"999 Newyork St, New York, NY, 00000", "start_date"=>"1/1/2017", "end_date"=>"1/3/2017", "image_url"=>"https://i.vimeocdn.com/portrait/58832_300x300"}, "commit"=>"Create Festival"}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Festival One"], ["location", "999 Newyork St, New York, NY, 00000"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Mar 2017], ["image_url", "https://i.vimeocdn.com/portrait/58832_300x300"], ["created_at", 2016-10-25 19:22:50 UTC], ["updated_at", 2016-10-25 19:22:50 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/festivals/36
+Completed 302 Found in 8ms (ActiveRecord: 1.6ms)
+Started GET "/festivals/36" for 127.0.0.1 at 2016-10-25 13:22:50 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"36"}
+  [1m[36mFestival Load (0.2ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 36], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 12ms (Views: 5.7ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "test 1"], ["location", "test location 1"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Feb 2017], ["image_url", "www.google.com"], ["created_at", 2016-10-25 19:22:50 UTC], ["updated_at", 2016-10-25 19:22:50 UTC]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/festivals/37" for 127.0.0.1 at 2016-10-25 13:22:50 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"37"}
+  [1m[36mFestival Load (0.2ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 37], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 12ms (Views: 8.7ms | ActiveRecord: 0.2ms)
+Started DELETE "/festivals/37" for 127.0.0.1 at 2016-10-25 13:22:50 -0600
+Processing by FestivalsController#destroy as HTML
+  Parameters: {"id"=>"37"}
+  [1m[36mFestival Load (0.3ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 37], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "festivals" WHERE "festivals"."id" = $1[0m  [["id", 37]]
+Redirected to http://www.example.com/festivals
+Completed 302 Found in 2ms (ActiveRecord: 0.5ms)
+Started GET "/festivals" for 127.0.0.1 at 2016-10-25 13:22:50 -0600
+Processing by FestivalsController#index as HTML
+  Rendering festivals/index.html.erb within layouts/application
+  [1m[36mFestival Load (0.5ms)[0m  [1m[34mSELECT "festivals".* FROM "festivals"[0m
+  Rendered festivals/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 10ms (Views: 6.6ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "festivals" ("name", "location", "start_date", "end_date", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "test 1"], ["location", "test location 1"], ["start_date", Sun, 01 Jan 2017], ["end_date", Wed, 01 Feb 2017], ["image_url", "www.google.com"], ["created_at", 2016-10-25 19:22:50 UTC], ["updated_at", 2016-10-25 19:22:50 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/festivals/38" for 127.0.0.1 at 2016-10-25 13:22:50 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"38"}
+  [1m[36mFestival Load (0.3ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 38], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 10ms (Views: 7.1ms | ActiveRecord: 0.3ms)
+Started GET "/festivals/38/edit" for 127.0.0.1 at 2016-10-25 13:22:50 -0600
+Processing by FestivalsController#edit as HTML
+  Parameters: {"id"=>"38"}
+  [1m[36mFestival Load (0.3ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 38], ["LIMIT", 1]]
+  Rendering festivals/edit.html.erb within layouts/application
+  Rendered festivals/_form.html.erb (6.7ms)
+  Rendered festivals/edit.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 15ms (Views: 12.5ms | ActiveRecord: 0.3ms)
+Started PATCH "/festivals/38" for 127.0.0.1 at 2016-10-25 13:22:50 -0600
+Processing by FestivalsController#update as HTML
+  Parameters: {"utf8"=>"✓", "festival"=>{"name"=>"Festival One", "location"=>"999 Newyork St, New York, NY, 00000", "start_date"=>"5/1/2017", "end_date"=>"5/3/2017", "image_url"=>"https://i.vimeocdn.com/portrait/58832_300x300"}, "commit"=>"Update Festival", "id"=>"38"}
+  [1m[36mFestival Load (0.3ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 38], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.8ms)[0m  [1m[33mUPDATE "festivals" SET "name" = $1, "location" = $2, "start_date" = $3, "end_date" = $4, "image_url" = $5, "updated_at" = $6 WHERE "festivals"."id" = $7[0m  [["name", "Festival One"], ["location", "999 Newyork St, New York, NY, 00000"], ["start_date", Thu, 05 Jan 2017], ["end_date", Sun, 05 Mar 2017], ["image_url", "https://i.vimeocdn.com/portrait/58832_300x300"], ["updated_at", 2016-10-25 19:22:50 UTC], ["id", 38]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/festivals/38
+Completed 302 Found in 8ms (ActiveRecord: 2.4ms)
+Started GET "/festivals/38" for 127.0.0.1 at 2016-10-25 13:22:50 -0600
+Processing by FestivalsController#show as HTML
+  Parameters: {"id"=>"38"}
+  [1m[36mFestival Load (0.1ms)[0m  [1m[34mSELECT  "festivals".* FROM "festivals" WHERE "festivals"."id" = $1 LIMIT $2[0m  [["id", 38], ["LIMIT", 1]]
+  Rendering festivals/show.html.erb within layouts/application
+  Rendered festivals/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 9ms (Views: 7.2ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
